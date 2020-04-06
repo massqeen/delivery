@@ -1,2 +1,2 @@
-# goit-fe-course
-for my hometasks
+# GLO ACADEMY
+Delivery Food
