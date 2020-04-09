@@ -11,6 +11,7 @@
 
 .restaurant-rating {
   flex-wrap: nowrap;
+  margin-bottom: 0;
 }
 
 .card-title-regular {
