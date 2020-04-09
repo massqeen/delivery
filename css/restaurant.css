@@ -35,6 +35,10 @@
   margin-right: 32px;
 }
 
+.card-image {
+  width: 100%;
+}
+
 .card-buttons {
   display: flex;
   align-items: center;
