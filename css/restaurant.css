@@ -1,0 +1,46 @@
+.restaurant-heading {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-bottom: 44px;
+}
+
+.restaurant-title {
+  margin-right: 30px;
+}
+
+.restaurant-rating {
+  flex-wrap: nowrap;
+}
+
+.card-title-regular {
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.ingredients {
+  color: #8c8c8c;
+}
+
+.button-card-text {
+  margin-right: 10px;
+}
+
+.card-price-bold {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.button-card {
+  margin-right: 32px;
+}
+
+.card-buttons {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 767px) {
+  .container {
+    max-width: 600px;
+  }
+}
