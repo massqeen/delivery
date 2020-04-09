@@ -91,6 +91,14 @@ h3 {
   margin-right: 6px;
 }
 
+.main {
+  background-image: linear-gradient(
+    NaNdeg,
+    rgba(245, 245, 245, 0) 1%,
+    #f5f5f5 100%
+  );
+}
+
 .promo {
   box-shadow: 0px 7px 12px rgba(158, 158, 163, 0.1);
   background: #fff1b8 url(../img/promo1.png) no-repeat top -160px right -180px /
@@ -212,4 +220,39 @@ h3 {
   vertical-align: middle;
   border-radius: 50%;
   margin-left: 10px;
+}
+
+.footer {
+  padding: 65px 0;
+}
+
+.footer-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-list,
+.social-links {
+  display: flex;
+  align-items: center;
+}
+
+.footer-nav {
+  display: inline-block;
+  margin-right: auto;
+  margin-left: 35px;
+}
+
+.footer-link {
+  color: #595959;
+  font-size: 18px;
+  text-decoration: none;
+}
+.footer-list-item:not(:last-child) {
+  margin-right: 14px;
+}
+
+.social-link:not(:last-child) {
+  margin-right: 21px;
 }
