@@ -18,6 +18,7 @@ Delivery Food
     src="./img/screenshots/Cart.jpg"
     alt="Cart page PC"
     title="Cart page PC"
+/>
 
 <h2>Tablet screenshots</h2>
 
