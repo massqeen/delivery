@@ -1,60 +1,18 @@
-# GLO ACADEMY
+# 3-pages site for food delivery
 
-Delivery Food
+## PC screenshots
 
-<h1>3-pages site for food delivery</h1>
-<h2>PC screenshots</h2>
-  <img
-    src="./img/screenshots/Home.jpg"
-    alt="Home page PC"
-    title="Home page PC"
-  />
-  <img
-    src="./img/screenshots/Restaurant.jpg"
-    alt="Restaurant page PC"
-    title="Restaurant page PC"
-  />
-  <img
-    src="./img/screenshots/Cart.jpg"
-    alt="Cart page PC"
-    title="Cart page PC"
-/>
+![Home page PC](./img/screenshots/Home.jpg 'Home page PC')
+![Restaurant page PC](./img/screenshots/Restaurant.jpg 'Restaurant page PC')
+![Cart page PC](./img/screenshots/Cart.jpg 'Cart page PC')
 
-<h2>Tablet screenshots</h2>
+## Tablet screenshots
 
-<img
-  src="./img/screenshots/tablet1.PNG"
-  alt="Home page tablet"
-  title="Home page tablet"
-  style="width: 20%;"
-/>
+![Home page tablet](./img/screenshots/tablet1.PNG 'Home page tablet')
+![Home page tablet](./img/screenshots/tablet.PNG 'Cart page tablet')
 
-<img
-  src="./img/screenshots/tablet.PNG"
-  alt="Home page tablet"
-  title="Cart page tablet"
-  style="width: 20%;"
-/>
+### Smartphone screenshots
 
-<h3>Smartphone screenshots</h3>
-
-<img
-  src="./img/screenshots/mobile.jpg"
-  alt="Home page smartphone"
-  title="Home page smartphone"
-  style="height: 50%;"
-/>
-
-<img
-  src="./img/screenshots/mobile1.jpg"
-  alt="Restaurant page smartphone"
-  title="Restaurant page smartphone"
-  style="height: 50%;"
-/>
-
-<img
-  src="./img/screenshots/mobile2.jpg"
-  alt="Cart page smartphone"
-  title="Cart page smartphone"
-  style="height: 50%;"
-/>
+![Home page smartphone](./img/screenshots/mobile.jpg 'Home page smartphone')
+![Restaurant page smartphone](./img/screenshots/mobile1.jpg 'Restaurant page smartphone')
+![Cart page smartphone](./img/mobile2.jpg 'Cart page smartphone')
