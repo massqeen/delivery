@@ -5,17 +5,17 @@ Delivery Food
 <h1>3-pages site for food delivery</h1>
 <h2>PC screenshots</h2>
   <img
-    src="./img/Home.jpg"
+    src="./img/screenshots/Home.jpg"
     alt="Home page PC"
     title="Home page PC"
   />
   <img
-    src="./img/Restaurant.jpg"
+    src="./img/screenshots/Restaurant.jpg"
     alt="Restaurant page PC"
     title="Restaurant page PC"
   />
   <img
-    src="./img/Cart.jpg"
+    src="./img/screenshots/Cart.jpg"
     alt="Cart page PC"
     title="Cart page PC"
 
