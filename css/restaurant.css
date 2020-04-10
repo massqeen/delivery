@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'SFProDisplay';
+  src: url('../fonts/SFProDisplay-Regular.eot');
+  src: local('☺'), url('../fonts/SFProDisplay-Regular.woff') format('woff'),
+    url('../fonts/SFProDisplay-Regular.ttf') format('truetype'),
+    url('../fonts/SFProDisplay-Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .restaurant-heading {
   display: flex;
   flex-wrap: wrap;
@@ -44,6 +54,7 @@
   display: flex;
   align-items: center;
 }
+
 @media (max-width: 767px) {
   .container {
     max-width: 600px;

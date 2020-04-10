@@ -8,8 +8,9 @@
       href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/minireset.min.css" />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="./css/animate.css" />
+    <link rel="stylesheet" href="./css/minireset.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <div class="container">
@@ -27,7 +28,7 @@
             <img src="./img/user.svg" alt="user" class="button-icon" />
             <span class="button-text">Войти</span>
           </button>
-          <button class="button" type="button">
+          <button class="button" type="button" id="cart-button">
             <img
               src="./img/shopping-cart.svg"
               alt="shopping-cart"
@@ -60,7 +61,7 @@
             />
           </div>
           <ul class="cards">
-            <li class="card">
+            <li class="card wow zoomIn" data-wow-delay="0.25s">
               <a href="restaurant.html" class="restaurant-link" target="_blank">
                 <img src="./img/card1.jpg" alt="" class="card-image" />
                 <div class="card-text">
@@ -87,7 +88,7 @@
               </a>
             </li>
             <!-- /.card -->
-            <li class="card">
+            <li class="card wow zoomIn" data-wow-delay="0.5s">
               <a href="restaurant.html" class="restaurant-link" target="_blank">
                 <img src="./img/card2.jpg" alt="" class="card-image" />
                 <div class="card-text">
@@ -114,7 +115,7 @@
               </a>
             </li>
             <!-- /.card -->
-            <li class="card">
+            <li class="card wow zoomIn" data-wow-delay="0.75s">
               <a href="restaurant.html" class="restaurant-link" target="_blank">
                 <img src="./img/card3.jpg" alt="" class="card-image" />
                 <div class="card-text">
@@ -141,7 +142,7 @@
               </a>
             </li>
             <!-- /.card -->
-            <li class="card">
+            <li class="card wow zoomIn" data-wow-delay="0.25s">
               <a href="restaurant.html" class="restaurant-link" target="_blank">
                 <img src="./img/card4.jpg" alt="" class="card-image" />
                 <div class="card-text">
@@ -168,7 +169,7 @@
               >
             </li>
             <!-- /.card -->
-            <li class="card">
+            <li class="card wow zoomIn" data-wow-delay="0.5s">
               <a href="restaurant.html" class="restaurant-link" target="_blank">
                 <img src="./img/card5.jpg" alt="" class="card-image" />
                 <div class="card-text">
@@ -195,7 +196,7 @@
               </a>
             </li>
             <!-- /.card -->
-            <li class="card">
+            <li class="card wow zoomIn" data-wow-delay="0.75s">
               <a href="restaurant.html" class="restaurant-link" target="_blank">
                 <img src="./img/card6.jpg" alt="" class="card-image" />
                 <div class="card-text">
@@ -263,5 +264,77 @@
         </div>
       </div>
     </footer>
+
+    <div class="modal">
+      <div class="modal-dialog">
+        <div class="modal-header">
+          <h3 class="modal-title">Корзина</h3>
+          <button class="close" type="button">&times</button>
+        </div>
+        <div class="modal-body">
+          <div class="food-row">
+            <span class="food-name">Ролл угорь стандарт</span>
+            <strong class="food-price">250 ₽</strong>
+            <div class="food-counter">
+              <button class="counter-button" type="button">-</button>
+              <span class="counter">1</span>
+              <button class="counter-button" type="button">+</button>
+            </div>
+          </div>
+          <div class="food-row">
+            <span class="food-name">Ролл угорь стандарт</span>
+            <strong class="food-price">250 ₽</strong>
+            <div class="food-counter">
+              <button class="counter-button" type="button">-</button>
+              <span class="counter">1</span>
+              <button class="counter-button" type="button">+</button>
+            </div>
+          </div>
+          <div class="food-row">
+            <span class="food-name">Ролл угорь стандарт</span>
+            <strong class="food-price">250 ₽</strong>
+            <div class="food-counter">
+              <button class="counter-button" type="button">-</button>
+              <span class="counter">1</span>
+              <button class="counter-button" type="button">+</button>
+            </div>
+          </div>
+          <div class="food-row">
+            <span class="food-name">Ролл угорь стандарт</span>
+            <strong class="food-price">250 ₽</strong>
+            <div class="food-counter">
+              <button class="counter-button" type="button">-</button>
+              <span class="counter">1</span>
+              <button class="counter-button" type="button">+</button>
+            </div>
+          </div>
+          <div class="food-row">
+            <span class="food-name">Ролл угорь стандарт</span>
+            <strong class="food-price">250 ₽</strong>
+            <div class="food-counter">
+              <button class="counter-button" type="button">-</button>
+              <span class="counter">1</span>
+              <button class="counter-button" type="button">+</button>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <span class="modal-pricetag">1250 ₽</span>
+          <div class="modal-footer-buttons">
+            <button class="modal-footer-button button-primary" type="button">
+              Оформить заказ
+            </button>
+            <button
+              class="modal-footer-button modal-cancel-button"
+              type="button"
+            >
+              Отмена
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/wow.min.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
