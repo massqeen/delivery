@@ -15,4 +15,4 @@
 
 ![Home page smartphone](./img/screenshots/mobile.jpg 'Home page smartphone')
 ![Restaurant page smartphone](./img/screenshots/mobile1.jpg 'Restaurant page smartphone')
-![Cart page smartphone](./img/mobile2.jpg 'Cart page smartphone')
+![Cart page smartphone](./img/screenshots/mobile2.jpg 'Cart page smartphone')
