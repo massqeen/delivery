@@ -22,14 +22,14 @@ Delivery Food
 <h2>Tablet screenshots</h2>
 
 <img
-  src="./img/tablet1.PNG"
+  src="./img/screenshots/tablet1.PNG"
   alt="Home page tablet"
   title="Home page tablet"
   style="width: 20%;"
 />
 
 <img
-  src="./img/tablet.PNG"
+  src="./img/screenshots/tablet.PNG"
   alt="Home page tablet"
   title="Cart page tablet"
   style="width: 20%;"
@@ -38,21 +38,21 @@ Delivery Food
 <h3>Smartphone screenshots</h3>
 
 <img
-  src="./img/mobile.jpg"
+  src="./img/screenshots/mobile.jpg"
   alt="Home page smartphone"
   title="Home page smartphone"
   style="height: 50%;"
 />
 
 <img
-  src="./img/mobile1.jpg"
+  src="./img/screenshots/mobile1.jpg"
   alt="Restaurant page smartphone"
   title="Restaurant page smartphone"
   style="height: 50%;"
 />
 
 <img
-  src="./img/mobile2.jpg"
+  src="./img/screenshots/mobile2.jpg"
   alt="Cart page smartphone"
   title="Cart page smartphone"
   style="height: 50%;"
