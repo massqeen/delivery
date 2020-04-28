@@ -96,11 +96,7 @@ button {
 }
 
 .main {
-  background-image: linear-gradient(
-    NaNdeg,
-    rgba(245, 245, 245, 0) 1%,
-    #f5f5f5 100%
-  );
+  background-image: linear-gradient(rgba(245, 245, 245, 0) 1%, #f5f5f5 100%);
 }
 
 .promo {
